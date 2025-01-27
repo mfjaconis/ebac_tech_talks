@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js --no-cache",
+    "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,7 +12,10 @@
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.12.0",
-    "parcel": "^2.12.0",
-    "sharp": "^0.31.3"
+    "parcel": "^2.9.3",
+    "sharp": "^0.33.5"
+  },
+  "dependencies": {
+    "@parcel/source-map": "^2.1.1"
   }
 }
